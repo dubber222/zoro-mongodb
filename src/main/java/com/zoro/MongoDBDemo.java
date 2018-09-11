@@ -72,7 +72,6 @@ public class MongoDBDemo {
 
 
         Block<Document> block = new Block<Document>() {
-            @Override
             public void apply(Document document) {
                 System.out.println(document.toJson());
             }
